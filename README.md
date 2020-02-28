@@ -1,1 +1,18 @@
-# whmcs-sendgrid-usage-widget
+# WHMCS SendGrid Usage Widget
+
+This widget provides you with your SendGrid usage stats on your WHMCS admin dashboard. It has been created to be extremely simple, easy to change to fit your needs and shouldn't need any updates to work with the latest WHMCS (unless WHMCS change core elements of their code base).
+
+## Installation
+
+* Download the latest master
+* Open the file /modules/widgets/SendGridUsage.php with your editor
+* Change the configuration listed below to use your SendGrid API token:
+
+$sendGridToken = '';
+
+* You can disable caching on the widget or the length of time the cache lasts using the config at the top
+* Upload to your WHMCS install, if you are uploading just 'EnomBalance.php' make sure to upload it to: /WHMCS-Directory/modules/widgets/
+
+## Links
+* Authors Website: https://www.hostmedia.co.uk/
+* Knowledge Base: https://www.hostmedia.co.uk/client/knowledgebase/201204251/WHMCS-SendGrid-Usage-Widget.html
