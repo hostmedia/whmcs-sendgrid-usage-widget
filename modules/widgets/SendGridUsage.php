@@ -44,6 +44,9 @@ class sendGridUsageWidget extends \WHMCS\Module\AbstractWidget
         ));
         curl_setopt($ch, CURLOPT_URL, $sendGridApiUrl);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        // CURL Timeout (Seconds)
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10);
         $result = curl_exec($ch);
         $result = json_decode($result);
         curl_close($ch);
