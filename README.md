@@ -22,3 +22,6 @@ $sendGridToken = '';
 * Authors Website: https://www.hostmedia.co.uk/
 * Knowledge Base: https://www.hostmedia.co.uk/client/knowledgebase/201204251/WHMCS-SendGrid-Usage-Widget.html
 * WHMCS Marketplace: https://marketplace.whmcs.com/product/5309
+
+## Preview
+![Widget Preview](https://www.hostmedia.co.uk/resources/images/knowledgebase/whmcs-sendgrid-widget.png)
