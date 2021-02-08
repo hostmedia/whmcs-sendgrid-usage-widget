@@ -13,6 +13,11 @@ $sendGridToken = '';
 * You can disable caching on the widget or the length of time the cache lasts using the config at the top
 * Upload to your WHMCS install, if you are uploading just 'SendGridUsage.php' make sure to upload it to: /WHMCS-Directory/modules/widgets/
 
+## WHMCS Tested Versions
+* 8.1
+* 8.0
+* 7.10
+
 ## Links
 * Authors Website: https://www.hostmedia.co.uk/
 * Knowledge Base: https://www.hostmedia.co.uk/client/knowledgebase/201204251/WHMCS-SendGrid-Usage-Widget.html
