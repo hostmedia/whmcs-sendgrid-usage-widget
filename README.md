@@ -10,7 +10,7 @@ This widget provides you with your SendGrid usage stats on your WHMCS admin dash
 
 $sendGridToken = '';
 
-* You can disable caching on the widget or the length of time the cache lasts using the config at the top
+* You can disable caching on the widget or change the length of time the cache lasts using the config at the top
 * Upload to your WHMCS install, if you are uploading just 'SendGridUsage.php' make sure to upload it to: /WHMCS-Directory/modules/widgets/
 
 ## WHMCS Tested Versions
