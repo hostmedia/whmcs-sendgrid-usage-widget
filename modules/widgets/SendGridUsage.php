@@ -72,13 +72,13 @@ class sendGridUsageWidget extends \WHMCS\Module\AbstractWidget
         }
         
         $dataArray = array(
-            sendGrid => json_decode($result)
-            , requests => $requests
-            , delivered => $delivered
-            , opens => $opens
-            , clicks => $clicks
-            , bounces => $bounces
-            , spam_reports => $spam_reports
+            'sendGrid' => json_decode($result)
+            , 'requests' => $requests
+            , 'delivered' => $delivered
+            , 'opens' => $opens
+            , 'clicks' => $clicks
+            , 'bounces' => $bounces
+            , 'spam_reports' => $spam_reports
         );
         
         return $dataArray;
