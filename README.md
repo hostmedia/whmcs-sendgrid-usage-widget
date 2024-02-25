@@ -14,8 +14,7 @@ $sendGridToken = '';
 * Upload to your WHMCS install, if you are uploading just 'SendGridUsage.php' make sure to upload it to: /WHMCS-Directory/modules/widgets/
 
 ## WHMCS Tested Versions
-* 8.1
-* 8.0
+* 8.0 - 8.8
 * 7.10
 
 ## Links
